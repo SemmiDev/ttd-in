@@ -21,7 +21,7 @@ function App() {
     const download = () => {
         const dlink = document.createElement('a');
         dlink.setAttribute('href', imageURL);
-        dlink.setAttribute('download', 'signature.png');
+        dlink.setAttribute('download', `${name}.png`);
         dlink.click();
     };
 
